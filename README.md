@@ -12,6 +12,8 @@
   API is now available](https://istanbul.js.org/) and is being actively developed
   in the new [istanbuljs organization](https://github.com/istanbuljs).
 
+**NOTE** This fork is to fix a bug in object-utils.js, computeSimpleTotals, which was reporting 100% statement and line coverage. This is used with istanbul-middleware to collect coverage statistics on client-side code.
+
 **New** `v0.4.0` now has beautiful HTML reports. Props to Tom MacWright @tmcw for a fantastic job!
 
 * [Features and use cases](#features)
